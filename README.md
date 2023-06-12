@@ -43,7 +43,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd Calorify
+  cd <YOUR-FOLDER>
 ```
 
 Install dependencies
@@ -60,24 +60,35 @@ Start the server
 
 ## Configuration for Cloud Function
 
+Install dependencies
 ```bash
 npm install -g firebase-tools
 ```
 
+go to your project directory
 ```bash
-cd YOURFOLDER/firebase-function
+cd <YOUR-FOLDER>/firebase-function
 ```
-
+Initialize your firebase
 ```bash
 firebase init
 ```
-
+change to your function directory
 ```bash
-cd YOURFOLDER/firebase-function/Function
+cd <YOUR-FOLDER>/firebase-function/Function
 ```
-
+Install dependencies for your function
 ```bash
 npm install
+```
+change your directory again
+```bash
+cd <YOUR-FOLDER>/firebase-function
+```
+
+Deploy your code to cloud function
+```bash
+cd <YOUR-FOLDER>/firebase-function
 ```
 
 ## Deployment To Google Cloud Platform
