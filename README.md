@@ -58,6 +58,28 @@ Start the server
   npm run start
 ```
 
+## Configuration for Cloud Function
+
+```bash
+npm install -g firebase-tools
+```
+
+```bash
+cd YOURFOLDER/firebase-function/Function
+```
+
+```bash
+firebase init
+```
+
+```bash
+cd YOURFOLDER/firebase-function/Function
+```
+
+```bash
+npm install
+```
+
 ## Deployment To Google Cloud Platform
 
 To deploy this project you should Clone the project
