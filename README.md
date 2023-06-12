@@ -67,7 +67,7 @@ npm install -g firebase-tools
 
 go to your project directory
 ```bash
-cd <YOUR-FOLDER>/firebase-function
+cd <YOUR-FOLDER>/firebasefunction
 ```
 Initialize your firebase
 ```bash
@@ -75,7 +75,7 @@ firebase init
 ```
 change to your function directory
 ```bash
-cd <YOUR-FOLDER>/firebase-function/Function
+cd <YOUR-FOLDER>/firebasefunction/Functions
 ```
 Install dependencies for your function
 ```bash
@@ -83,12 +83,12 @@ npm install
 ```
 change your directory again
 ```bash
-cd <YOUR-FOLDER>/firebase-function
+cd <YOUR-FOLDER>/firebasefunction
 ```
 
 Deploy your code to cloud function
 ```bash
-cd <YOUR-FOLDER>/firebase-function
+firebase deploy --only functions
 ```
 
 ## Deployment To Google Cloud Platform
