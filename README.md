@@ -1,11 +1,8 @@
 # Calorify-Backend
 
-
 # Calorify
 
-
-this is the backend of Calorify, Calorify is the user's calorie tracking application, the user can get optimal daily calories and can track the calorie report from the user 
-
+this is the backend of Calorify, Calorify is the user's calorie tracking application, the user can get optimal daily calories and can track the calorie report from the user
 
 ## Documentation
 
@@ -19,28 +16,28 @@ this is the backend of Calorify, Calorify is the user's calorie tracking applica
 - App Engine - Google Cloud Platform (GCP)
 - Google Scheduler - Google Cloud Platform (GCP)
 - Pub/Sub - Google Cloud Platform (GCP)
+- Cloud Storage/Buckets - Google Cloud Platform (GCP)
 
 ## Dependencies
 
-
- * axios: 1.4.0
- * body-parser: 1.20.2
- * cors: 2.8.5
- * dotenv: 16.0.3
- * express: 4.18.2
- * firebase: 9.22.1
- * firebase-admin: 11.8.0
- * moment: 2.29.4
- * newsapi: 2.4.1
- * nodemon: 2.0.22
-
+- axios: 1.4.0
+- body-parser: 1.20.2
+- cors: 2.8.5
+- dotenv: 16.0.3
+- express: 4.18.2
+- firebase: 9.22.1
+- firebase-admin: 11.8.0
+- moment: 2.29.4
+- multer: 1.4.5-lts.1
+- @google-cloud/storage: 6.11.0
+- nodemon: 2.0.22
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/Diegratia/CalorifyPub.git
+  git clone https://github.com/Diegratia/Calorify.git
 ```
 
 Go to the project directory
@@ -61,13 +58,12 @@ Start the server
   npm run start
 ```
 
-
 ## Deployment To Google Cloud Platform
 
 To deploy this project you should Clone the project
 
 ```bash
-  git clone https://github.com/Diegratia/CalorifyPub.git
+  git clone https://github.com/Diegratia/Calorify.git
 ```
 
 Go to the project directory
@@ -87,6 +83,3 @@ Deploy in App Engine
 ```bash
   gcloud app deploy
 ```
-
-
-
