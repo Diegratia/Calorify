@@ -31,7 +31,7 @@ this is the backend of Calorify, Calorify is the user's calorie tracking applica
 - multer: 1.4.5-lts.1
 - @google-cloud/storage: 6.11.0
 - nodemon: 2.0.22
-##
+
 ## Run Locally
 
 Clone the project
@@ -57,7 +57,7 @@ Start the server
 ```bash
   npm run start
 ```
-##
+
 ## Configuration for Cloud Function
 
 ```bash
@@ -79,7 +79,7 @@ cd YOURFOLDER/firebase-function/Function
 ```bash
 npm install
 ```
-##
+
 ## Deployment To Google Cloud Platform
 
 To deploy this project you should Clone the project
