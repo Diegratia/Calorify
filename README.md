@@ -32,6 +32,40 @@ this is the backend of Calorify, Calorify is the user's calorie tracking applica
 - @google-cloud/storage: 6.11.0
 - nodemon: 2.0.22
 
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+#express server config
+
+PORT=YOUR PORT
+HOST= YOUR HOST
+HOST_URL=http://YOURHOST:YOURPORT
+
+#firebase database config
+*create firebase project to get your config
+
+API_KEY= 
+AUTH_DOMAIN= 
+PROJECT_ID= 
+STORAGE_BUCKET= 
+MESSAGING_SENDERID= 
+APP_ID= 
+
+
+#bmr & bbmi config
+
+BMI_URL= your public bmi url 
+BMR_URL= your public bmr url
+BMI_BMR_KEY= bmi & bmr key
+BMI_BMR_HOST= bmi & bmr host
+
+NUTRITION_KEY= Your Nutrition API KEY
+NUTRITION_URL= Your Nutrition API URL
+
+
+
 ## Run Locally
 
 Clone the project
