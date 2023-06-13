@@ -5,7 +5,7 @@ import PIL
 import PIL.Image
 
 INPUT_IMAGE_SHAPE = [224, 224]
-model_path = 'model.h5'
+model_path = ''
 class_names = ['fried_rice', 'omelette', 'tiramisu', 'spring_rolls', 'donuts', 'chicken_wings',
                'chocolate_cake', 'churros', 'ice_cream', 'waffles', 'takoyaki', 'onion_rings',
                'mussels', 'macarons', 'cup_cakes', 'hamburger', 'edamame']
@@ -37,4 +37,4 @@ def predict():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='', port=)
