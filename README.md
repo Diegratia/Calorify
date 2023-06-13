@@ -18,11 +18,12 @@ this is the backend of Calorify, Calorify is the user's calorie tracking applica
 
 - Express.js
 - Firebase
-- Cloud/Firebase function - Google Cloud Platform (GCP)
-- App Engine - Google Cloud Platform (GCP)
-- Google Scheduler - Google Cloud Platform (GCP)
-- Pub/Sub - Google Cloud Platform (GCP)
-- Cloud Storage/Buckets - Google Cloud Platform (GCP)
+- Google Cloud Platform (GCP) services:
+  - Cloud Functions
+  - App Engine
+  - Google Scheduler
+  - Pub/Sub
+  - Cloud Storage/Buckets
 
 ## Dependencies
 
