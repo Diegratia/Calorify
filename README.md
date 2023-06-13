@@ -10,7 +10,8 @@ this is the backend of Calorify, Calorify is the user's calorie tracking applica
 
 ##Backend and Cloud Architecture
 
-![Calorify Cloud Architecture - Page 1 (2)](https://github.com/Diegratia/Calorify/assets/67423473/e5ffc62a-84a9-4178-a773-00633417945a)
+![Calorify Cloud Architecture - Page 1 (3)](https://github.com/Diegratia/Calorify/assets/67423473/94913da1-d35a-4c11-903a-019a6a46a2f7)
+
 
 
 ## Tech Stack
