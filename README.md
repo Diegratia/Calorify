@@ -13,7 +13,7 @@
 
 # Calorify
 
-Calorify-Backend is the backend component of Calorify, a calorie tracking application that allows users to get optimal daily calorie recommendations and track their calorie intake.
+Calorify-Backend is the backend component of Calorify, a calorie tracking application that allows users to get optimal daily calorie recommendations and track users calorie intake.
 
 ## Documentation
 
