@@ -73,11 +73,6 @@ Change to the Functions directory, install dependencies, and go back to the proj
 cd Functions
 npm install
 cd ../
-
-```
-Deploy the code to Cloud Functions
-```bash
-firebase deploy --only functions
 ```
 
 Deploy your code to cloud function
