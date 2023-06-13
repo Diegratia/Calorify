@@ -19,7 +19,7 @@ Calorify-Backend is the backend component of Calorify, a calorie tracking applic
 
 [Calorify Documentation](link)
 
-##Backend and Cloud Architecture
+## Backend and Cloud Architecture
 
 ![Calorify Cloud Architecture - Page 1 (3)](https://github.com/Diegratia/Calorify/assets/67423473/94913da1-d35a-4c11-903a-019a6a46a2f7)
 
