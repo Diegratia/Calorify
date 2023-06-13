@@ -7,6 +7,7 @@
   - [Tech Stack](#tech-stack)
   - [Dependencies](#dependencies)
   - [Code Configuration](#code-configuration)
+  - [Service Account Configuration](#Service-Account-Configuration)
   - [Local Development](#local-development)
   - [Configuration for Cloud Function](#configuration-for-cloud-function)
   - [Deployment To Google Cloud Platform](#deployment-to-google-cloud-platform)
@@ -88,9 +89,8 @@ To obtain the required configuration, sign up for the following Nutrition API: [
 - `NUTRITION_URL`: Your Nutrition API URL
 ```
 ## Service Account Configuration
-```
 [read this](https://github.com/Diegratia/Calorify/blob/main/your-key-folder/README.md)
-```
+
 ## Local Development
 Follow these steps to run the Calorify-Backend locally:
 
