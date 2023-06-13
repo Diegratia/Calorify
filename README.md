@@ -1,14 +1,26 @@
 # Calorify-Backend
 
+- [Calorify-Backend](#calorify-backend)
+  - [Calorify](#calorify)
+  - [Documentation](#documentation)
+  - [Backend and Cloud Architecture](#backend-and-cloud-architecture)
+  - [Tech Stack](#tech-stack)
+  - [Dependencies](#dependencies)
+  - [Code Configuration](#code-configuration)
+  - [Service Account Configuration](#Service-Account-Configuration)
+  - [Local Development](#local-development)
+  - [Configuration for Cloud Function](#configuration-for-cloud-function)
+  - [Deployment To Google Cloud Platform](#deployment-to-google-cloud-platform)
+
 # Calorify
 
-Calorify-Backend is the backend component of Calorify, a calorie tracking application that allows users to get optimal daily calorie recommendations and track their calorie intake.
+Calorify-Backend is the backend component of Calorify, a calorie tracking application that allows users to get optimal daily calorie recommendations and track users calorie intake.
 
 ## Documentation
 
-[Calorify Documentation](link)
+[Calorify Documentation](https://documenter.getpostman.com/view/27637501/2s93sabDVB)
 
-##Backend and Cloud Architecture
+## Backend and Cloud Architecture
 
 ![Calorify Cloud Architecture - Page 1 (3)](https://github.com/Diegratia/Calorify/assets/67423473/94913da1-d35a-4c11-903a-019a6a46a2f7)
 
@@ -38,6 +50,46 @@ Calorify-Backend is the backend component of Calorify, a calorie tracking applic
 - @google-cloud/storage: 6.11.0
 - nodemon: 2.0.22
 
+## Code Configuration
+
+To run this project, you will need to add the following environment variables to your `.env` file:
+
+### Express Server Configuration
+```
+- `PORT=YOUR-PORT`
+- `HOST=YOUR-HOST`
+- `HOST_URL=http://YOUR-HOST:YOUR-PORT`
+```
+### Firebase Database Configuration
+
+To obtain the required configuration, create a Firebase project and retrieve the following details:
+```
+API_KEY
+AUTH_DOMAIN
+PROJECT_ID
+STORAGE_BUCKET
+MESSAGING_SENDERID
+APP_ID
+```
+
+### BMI & BMR Configuration
+
+To obtain the required configuration, sign up for the following public API: [BMI & BMR API](https://rapidapi.com/malaaddincelik/api/fitness-calculator)
+```
+- `BMI_URL`: Your public BMI URL
+- `BMR_URL`: Your public BMR URL
+- `BMI_BMR_KEY`: BMI & BMR key
+- `BMI_BMR_HOST`: BMI & BMR host
+```
+### Nutrition Configuration
+
+To obtain the required configuration, sign up for the following Nutrition API: [Nutrition API](https://api-ninjas.com/api/nutrition)
+```
+- `NUTRITION_KEY`: Your Nutrition API KEY
+- `NUTRITION_URL`: Your Nutrition API URL
+```
+## Service Account Configuration
+[read this](https://github.com/Diegratia/Calorify/blob/main/your-key-folder/README.md)
 
 ## Local Development
 Follow these steps to run the Calorify-Backend locally:
