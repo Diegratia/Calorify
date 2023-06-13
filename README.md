@@ -39,7 +39,8 @@ this is the backend of Calorify, Calorify is the user's calorie tracking applica
 - nodemon: 2.0.22
 
 
-## Run Locally
+## Local Development
+Follow these steps to run the Calorify-Backend locally:
 
 Clone the project
 
@@ -66,6 +67,7 @@ Start the server
 ```
 
 ## Configuration for Cloud Function
+To configure the Calorify-Backend for deployment to Google Cloud Functions, follow these steps:
 
 Install dependencies
 ```bash
@@ -82,7 +84,7 @@ firebase init
 ```
 change to your function directory
 ```bash
-cd <YOUR-FOLDER>/firebasefunction/Functions
+cd Functions
 ```
 Install dependencies for your function
 ```bash
@@ -90,7 +92,7 @@ npm install
 ```
 change your directory again
 ```bash
-cd <YOUR-FOLDER>/firebasefunction
+cd ../
 ```
 
 Deploy your code to cloud function
@@ -109,7 +111,7 @@ To deploy this project you should Clone the project
 Go to the project directory
 
 ```bash
-  cd Calorify
+  cd <YOUR-FOLDER>
 ```
 
 Install All dependencies
