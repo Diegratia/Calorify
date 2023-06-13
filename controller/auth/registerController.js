@@ -54,10 +54,10 @@ const register = async(req, res) => {
 
 const registerData = async (req, res) => {
   try {
-    const { username, nation, birthday, age, gender, height, weight, activitylevel } = req.body;
+    const { username, nation, birthday, gender, height, weight, activitylevel } = req.body;
     const user_id = req.user.uid;
     const email = req.user.email;
-    if (!birthday || !gender || !height || !weight || !activitylevel) {
+    if (!username || !nation || !birthday || !gender || !height || !weight || !activitylevel) {
       res.status(400).json({ 
         code: 400,
         status: "Bad Request",
@@ -66,14 +66,16 @@ const registerData = async (req, res) => {
       return;
     }
 
- 
+    const currentDate = new Date();
+    const birthDate = new Date(birthday);
+    let age = currentDate.getFullYear() - birthDate.getFullYear();
+
     const users = doc(firestore, 'users', user_id);
     await setDoc(users, {
       email,
       username,
       nation,
-      birthday,
-      age,
+      age, 
       gender,
       height,
       weight,
