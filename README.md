@@ -148,3 +148,9 @@ Deploy to App Engine
 gcloud app deploy
 ```
 
+## Public API this Project use
+
+- [BMI And BMR API](https://rapidapi.com/malaaddincelik/api/fitness-calculator)
+- [Nutrition API](https://api-ninjas.com/api/nutrition)
+
+
