@@ -3,9 +3,8 @@ this is the machine learning model api of Calorify, using flask and .h5 model
 
 ##
 Download our model and put in same folder with app.py file
-```
 [model](https://storage.googleapis.com/calorify-model-bucket/model.h5)
-```
+
 
 ## clone this branch
 ```
