@@ -1,7 +1,7 @@
 # Calorify-Machine-Learning-Model
 this is the machine learning model of Calorify
 
-##clone this branch
+## clone this branch
 ```
 git clone -b Machine-Learning-Model https://github.com/Diegratia/Calorify.git Machine-Learning-Model
 cd Machine-Learning-Model
@@ -11,16 +11,16 @@ cd Machine-Learning-Model
 pip install -r requirement.txt
 ```
 
-##Initialize and enable API
+## Initialize and enable API
 ```
 $ gcloud init
 $ gcloud services enable run.googleapis.com
 ```
-##build and push image
+## build and push image
 ~
 gcloud builds submit --tag gcr.io/<Your-Project-ID>/machine-learning-model
 ~
-##Deploy your model in cloud run
+## Deploy your model in cloud run
 ```
 gcloud run deploy machine-learning-model \
 --image=gcr.io/<YOUR-PROJECT-ID>/machine-learning-model
