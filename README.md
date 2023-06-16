@@ -1,9 +1,17 @@
 # Calorify-Machine-Learning-Model
-this is the machine learning model api of Calorify, using flask and .h5 model
-
-##
-Download our model and put in same folder with app.py file
+this is the machine learning model api of Calorify, using flask and .h5 model, Download our model and put in same folder with app.py file
 [model](https://storage.googleapis.com/calorify-model-bucket/model.h5)
+
+## API Reference
+#### Post food image
+
+```http
+  POST /predict
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `image`   | `file`   | **Required**. file image of your food |
 
 
 ## clone this branch
