@@ -11,6 +11,7 @@
   - [Local Development](#local-development)
   - [Configuration for Cloud Function](#configuration-for-cloud-function)
   - [Deployment To Google Cloud Platform](#deployment-to-google-cloud-platform)
+  - [Public API](#public-api-this-project-use)
 
 # Calorify
 
