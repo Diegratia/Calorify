@@ -30,9 +30,9 @@ $ gcloud init
 $ gcloud services enable run.googleapis.com
 ```
 ## build and push image
-~
+```
 gcloud builds submit --tag gcr.io/<Your-Project-ID>/machine-learning-model
-~
+```
 ## Deploy your model in cloud run
 ```
 gcloud run deploy machine-learning-model \
