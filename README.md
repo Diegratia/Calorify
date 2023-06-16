@@ -1,5 +1,11 @@
 # Calorify-Machine-Learning-Model
-this is the machine learning model of Calorify
+this is the machine learning model api of Calorify, using flask and .h5 model
+
+##
+Download our model and put in same folder with app.py file
+```
+[model.h5](https://storage.googleapis.com/calorify-model-bucket/model.h5)
+```
 
 ## clone this branch
 ```
@@ -26,6 +32,8 @@ gcloud run deploy machine-learning-model \
 --image=gcr.io/<YOUR-PROJECT-ID>/machine-learning-model
 --allow-unauthenticated \
 --memory=2Gi \
+--max-instances=2 \
+--cpu=2
 --region=asia-southeast2 \
 --<YOUR-PROJECT-ID>
 ```
