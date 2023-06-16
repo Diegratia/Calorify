@@ -17,9 +17,10 @@
 
 Calorify-Backend is the backend component of Calorify, a calorie tracking application that allows users to get optimal daily calorie recommendations and track users calorie intake.
 
-## Documentation
+## Documentation and Sources
 
 [Calorify Documentation](https://documenter.getpostman.com/view/27637501/2s93sabDVB)
+[Machine Learning API](https://github.com/Diegratia/Calorify/tree/Machine-Learning-Model)
 
 ## Backend and Cloud Architecture
 
