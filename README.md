@@ -5,7 +5,7 @@ this is the machine learning model api of Calorify, using flask and .h5 model, D
 ## API Reference
 #### Post food image
 
-```http
+```
   POST /predict
 ```
 
