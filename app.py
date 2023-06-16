@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from waitress import serve
 import numpy as np
 import tensorflow as tf
 import PIL
@@ -26,6 +27,7 @@ def predict():
         img = img[..., :3]
         img_rescaled = tf.image.resize(img, [224, 224])
         img_rescaled = tf.expand_dims(img_rescaled, 0)
+        img_rescaled =np.vstack([img_rescaled])
 
         model = tf.keras.models.load_model(model_path, compile=False)
         model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
@@ -33,11 +35,13 @@ def predict():
         prediction = model.predict(img_rescaled)
         prediction = np.argmax(prediction[0])
         result = class_names[prediction]
+        result = result.split("_")
+        result = " ".join(result)
 
-        print(result)
         modelRes = jsonify({"result":result})
         modelRes.headers['Content-Type']='application/json; charset=utf-8'
         return modelRes
 
 if __name__ == '__main__':
-    app.run(host='<yourhost>', port='<yourport>')
+    print("Your model server running successfully!")
+    serve(app, host='<yourhost>', port='<yourport>')
